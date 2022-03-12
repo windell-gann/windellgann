@@ -35,8 +35,8 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="static" sx={{backgroundColor:"#212529"}}>
+      <Container>
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -96,7 +96,7 @@ const ResponsiveAppBar = () => {
           >
             Windell Gann
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent:"flex-end" }}>
                 <Link sx={{ my: 2, mx: 2, color: 'white', display: 'block' }} href='/' textAlign="center">Home</Link>
                 <Link sx={{ my: 2, mx: 2, color: 'white', display: 'block' }} href='/about' textAlign="center">About</Link>
                 <Link sx={{ my: 2, mx:2, color: 'white', display: 'block' }} href='/contact' textAlign="center">Contact</Link>
