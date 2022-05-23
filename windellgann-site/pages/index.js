@@ -8,7 +8,7 @@ export default function Home() {
     { number: 1,
       title: "Learn About God's Way of Salvation",
       body: `"It is written in the prophets, and they shall all be taught of God. Every man therefore that hath heard and learned of the Father, cometh unto me." (John 6:45)`,
-      link: "http://home.hiwaay.net/~wgann/sermons/salvat.htm",
+      link: "/category/salvation",
       linkTitle: "God's Way of Salvation",
       imgSrc: "/static/images/openBible.jpg",
       imgAlt: "Open Bible Image"
@@ -16,7 +16,7 @@ export default function Home() {
     ,{number: 2,
       title: "Walking Thru The Bible",
       body: `A series of Bible Class lessons and sermon outlines to go through the Bible in a one-year program.`,
-      link: "http://home.hiwaay.net/~wgann/walk/walk.htm",
+      link: "/category/walkThruBible",
       linkTitle: "Walking Thru The Bible",
       imgSrc: "/static/images/laptop.jpg",
       imgAlt: "Laptop With Open Bible"
@@ -115,7 +115,7 @@ export default function Home() {
     { number: 3,
       title: "Dispensationalism by Daniel Ridinger",
       body: `A series of five lessons on Dispensational Premillennialism by Daniel Ridinger. There are also some hand-outs with these lessons. All are in PDF format.`,
-      link: 'http://home.hiwaay.net/~wgann/ridinger/dispensationalism.htm',
+      link: '/more/dispensationalism',
       linkTitle: 'Dispensationalism Lessons',
       imgSrc: "/static/images/openBible13.jpg",
       imgAlt: "Open Bible",
